@@ -2502,7 +2502,7 @@ for a in range(0,10000000000):
                                 F2-=(dxcpx[ton1]+xdmotor)*Km
                         if kinapx[ton1]==0 or kinbpx[ton1]==0:
                             dxcpx[ton1]=0
-                                                #增加为负，减少为正
+                                                
                     zj0[i],zj1[i],zj2[i],zj3[i],zj4[i],zj5[i],zj6[i],zj7[i]=jiao(dxc,dxcp,dxcpx,F1,F2,F3,F4,monum,monump,monumpx)
                     dxc[i]=dx1-d
                     if dx1+d>xdmotor:
