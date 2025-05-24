@@ -1889,7 +1889,7 @@ def jiaocheck(jisuan,jisuanp,jisuanpx,F0,F1,F2,F3,F4,F5,F6,F7):#Auxiliary Calcul
                                                 continue
                                             if cnn0px+cnnkpx==0 and xx3!=0:
                                                 continue    
-                                                                                        ji[x2].append([cnn0,cnnk,cnn0p,cnnkp,cnn0px,cnnkpx,xx1,xx2,xx3,ta1,ta2,ta3,ta4,ta5,ta6])
+                                            ji[x2].append([cnn0,cnnk,cnn0p,cnnkp,cnn0px,cnnkpx,xx1,xx2,xx3,ta1,ta2,ta3,ta4,ta5,ta6])
     a00=round(3*(-Kp1-Kp2),3);a10=Kp2;a30=Kp1;a80=Kp2;a100=Kp1;a120=Kp2;a140=Kp1
     a21=Kp2;a41=Kp1;a71=round((-Kp1-Kp2)*3,3);a91=Kp2;a111a=Kp1;a131=Kp2;a151=Kp1
     a32=Kp3;a52=round((-Kp3-Kp4)*3,3);a62=round(Kp4*3,3);a102=Kp3;a142=Kp3
